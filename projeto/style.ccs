@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Barbearia Navalha Fina - Cortes modernos, barba tradicional e atendimento de excelência.">
+  <title>Barbearia Navalha Fina</title>
+  <!-- Link para o arquivo CSS externo -->
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
 
+  <!-- Link de acessibilidade para navegação por teclado -->
+  <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+
+  <header>
+    <nav aria-label="Navegação Principal">
+      <div class="logo">Navalha Fina</div>
+      <ul>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Barbearia Navalha Fina</h1>
+    <p>Estilo, tradição e cuidado com a sua imagem. O melhor atendimento técnico para o homem moderno.</p>
+  </div>
+
+  <main id="conteudo-principal">
+
+    <!-- SEÇÃO DE SERVIÇOS -->
+    <section id="servicos" aria-labelledby="titulo-servicos">
+      <h2 id="titulo-servicos">Nossos Serviços</h2>
+      
+      <div class="servicos-grid">
+        
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=600&q=80" alt="Barbeiro realizando corte de cabelo masculino com tesoura.">
+          <div class="card-conteudo">
+            <h3>Corte Tradicional</h3>
+            <p>Atendimento personalizado com lavagem, corte na tesoura ou máquina e finalização com pomada.</p>
+            <p class="preco">R$ 45,00</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=600&q=80" alt="Homem recebendo tratamento na barba com toalha quente.">
+          <div class="card-conteudo">
+            <h3>Barba Completa</h3>
+            <p>Modelagem de barba com alinhamento, toalha quente e óleos hidratantes para a pele.</p>
+            <p class="preco">R$ 35,00</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=600&q=80" alt="Barbeiro fazendo acabamento no cabelo do cliente.">
+          <div class="card-conteudo">
+            <h3>Combo Cabelo + Barba</h3>
+            <p>O pacote completo para renovar o visual com direito a bebidas cortesia no local.</p>
+            <p class="preco">R$ 70,00</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SEÇÃO SOBRE -->
+    <section id="sobre" aria-labelledby="titulo-sobre">
+      <h2 id="titulo-sobre">Sobre a Empresa</h2>
+      <p class="texto-sobre">
+        Fundada em 2024, a Barbearia Navalha Fina combina técnicas clássicas de barbearia com as tendências visuais modernas. Nosso objetivo é oferecer uma experiência de higiene e estética masculina rápida, acessível e de alta qualidade técnica.
+      </p>
+    </section>
+
+    <!-- SEÇÃO DE CONTATO -->
+    <section id="contato" aria-labelledby="titulo-contato">
+      <h2 id="titulo-contato">Atendimento e Contato</h2>
+      
+      <div class="contato-container">
+        <div class="contato-info">
+          <h3>Fale Conosco</h3>
+          <ul>
+            <li><strong>Telefone/WhatsApp:</strong> (11) 99999-8888</li>
+            <li><strong>E-mail:</strong> contato@navalhafinaficticio.com.br</li>
+            <li><strong>Horário:</strong> Terça a Sábado, das 09h às 20h</li>
+          </ul>
+        </div>
+
+        <div class="contato-info">
+          <h3>Onde Estamos</h3>
+          <ul>
+            <li><strong>Endereço:</strong> Av. Paulista, 1000 - Sala 42</li>
+            <li><strong>Bairro:</strong> Bela Vista - São Paulo / SP</li>
+            <li><strong>CEP:</strong> 01310-100</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Barbearia Navalha Fina. Projeto escolar desenvolvido para o Curso Técnico em Administração.</p>
+  </footer>
+
+</body>
+</html>
